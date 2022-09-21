@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    scroll-behavior: smooth;
+}
+
+section {
+    width: 100%;
+    min-height: 105vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 2;
+    font-family: 'Red Hat Mono', monospace;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+img {
+    height: 150px;
+    margin-bottom: 50px;
+    border: 5px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #b3b3b3;
+}
+
+nav {
+    height: 64px;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 30px;
+}
+
+#title {
+    font-size: 1.8rem;
+    font-family: 'Red Hat Mono', monospace;
+    text-transform: uppercase;
+}
+
+.home {
+    background-color: wheat;
+}
+
+.home div {
+    transform: translateY(64px);
+    margin: 5%;
+}
+
+.about{
+    background-color: white;
+}
+
+.about div {
+    margin: 8%;
+}
+
+.activities {
+    background-color: wheat;
+}
+
+.contact {
+    background-color: white;
+}
